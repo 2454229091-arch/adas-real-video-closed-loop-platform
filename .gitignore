@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+streamlit-dashboard*.log
+.venv/
+venv/
+env/
+.env
+
+# Local browser profile created for Codex/ChatGPT coordination.
+.codex-chatgpt-chrome-profile/
+
+# Raw driving videos should stay local.
+data/raw/*.mp4
+data/raw/*.mov
+data/raw/*.avi
+data/synthetic/*.mp4
+data/synthetic/*.json
+
+# YOLO model weights can be downloaded locally.
+*.pt
+*.onnx
+
+# Backups and generated packages should stay local.
+*.zip
+
+# Generated reports, evidence frames, and rendered videos can be large and may
+# contain sensitive road-scene details.
+outputs/*
+!outputs/annotated_frames/
+outputs/annotated_frames/*
+!outputs/annotated_frames/.gitkeep
+!outputs/evidence_frames/
+outputs/evidence_frames/*
+!outputs/evidence_frames/.gitkeep

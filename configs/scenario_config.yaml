@@ -1,0 +1,21 @@
+ego_lane_region:
+  x_min_ratio: 0.35
+  x_max_ratio: 0.65
+  y_min_ratio: 0.45
+  y_max_ratio: 1.00
+object_classes:
+  vehicle: ["car", "truck", "bus"]
+  vulnerable_road_user: ["person", "bicycle", "motorcycle"]
+scenario_enabled:
+  close_following: true
+  front_vehicle_deceleration: true
+  pedestrian_crossing: true
+  cut_in: true
+  lane_departure_risk: true
+thresholds:
+  close_following_distance_m: 14
+  close_following_thw_s: 1.2
+  deceleration_ttc_s: 3.0
+  cut_in_distance_m: 18
+  pedestrian_distance_m: 18
+  lane_offset_m: 0.8

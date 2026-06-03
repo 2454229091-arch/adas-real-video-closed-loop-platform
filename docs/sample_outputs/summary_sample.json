@@ -1,0 +1,29 @@
+{
+  "project_name": "ADAS Scenario-Based Risk Mining & Regression Test Platform",
+  "metadata": {
+    "source": "synthetic",
+    "fps": 10,
+    "ego_speed_kmh": 50.0
+  },
+  "total_risk_events": 6,
+  "total_defects": 6,
+  "total_test_cases": 6,
+  "critical_events": 1,
+  "risk_level_counts": {
+    "CRITICAL": 1,
+    "HIGH": 5,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "scenario_type_counts": {
+    "close_following": 2,
+    "front_vehicle_deceleration": 1,
+    "pedestrian_crossing": 1,
+    "cut_in": 1,
+    "lane_departure_risk": 1
+  },
+  "priority_counts": {
+    "P1": 5,
+    "P0": 1
+  }
+}

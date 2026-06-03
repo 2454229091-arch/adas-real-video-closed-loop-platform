@@ -1,0 +1,3 @@
+test_case_id,scenario_type,linked_event_id,linked_defect_id,priority,feature_tags,expected_result,evaluation_metrics,regression_type
+TC-ADAS-000001,close_following,EVT-000001,BUG-000001,P1,"ACC, AEB, Longitudinal Control",System flags close_following and produces a bounded ADAS response requirement.,"TTC=3.1, THW=1.004, risk_score=49",synthetic_regression
+TC-ADAS-000003,close_following,EVT-000003,BUG-000003,P0,"ACC, AEB, Longitudinal Control",System flags close_following and produces a bounded ADAS response requirement.,"TTC=0.64, THW=0.576, risk_score=75",synthetic_regression

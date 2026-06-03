@@ -1,0 +1,21 @@
+ttc:
+  critical: 1.5
+  high: 3.0
+  medium: 5.0
+thw:
+  critical: 0.8
+  high: 1.2
+  medium: 2.0
+distance_m:
+  critical: 5
+  high: 10
+  medium: 20
+cooldown_frames:
+  default: 30
+  pedestrian_crossing: 20
+  cut_in: 25
+risk_weight:
+  ttc: 0.45
+  thw: 0.25
+  distance: 0.20
+  object_type: 0.10
